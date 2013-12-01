@@ -6,7 +6,7 @@ http.createServer(function (req, res) {
 }).listen(1337, '127.0.0.1');
 
 var x = 3;
-if(x = 3)
-    console.log('test') 
+if(x == 3)
+    console.log('test');
 console.log('Server running at http://127.0.0.1:1337/');
 
