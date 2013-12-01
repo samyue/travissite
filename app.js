@@ -8,5 +8,7 @@ http.createServer(function (req, res) {
 var x = 3;
 if(x == 3)
     console.log('test');
+
+console.log('passed!')
 console.log('Server running at http://127.0.0.1:1337/');
 
